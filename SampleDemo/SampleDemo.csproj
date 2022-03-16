@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleDemo.Program</StartupObject>
+    <StartupObject>SampleDemo.Array_2DEx</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array_2DEx.cs" />
+    <Compile Include="Array_Ex.cs" />
     <Compile Include="Calculation.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Manager.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductMainMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
