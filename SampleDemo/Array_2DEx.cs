@@ -40,9 +40,9 @@ namespace SampleDemo
            
             Console.WriteLine("For list sorting");
             
-            for (int i = 0; i < list.GetLength(0); i++)//treated as row
+            for (int i = 0; i < list.GetLength(0); i++)//treated as 0 specifi row
             {
-                for (int j = 0; j < list.GetLength(1); j++)//treated as column
+                for (int j = 0; j < list.GetLength(1); j++)//treated as 1 specifi column 
                 {
                     Console.Write(list[i, j] + " ");
                 }

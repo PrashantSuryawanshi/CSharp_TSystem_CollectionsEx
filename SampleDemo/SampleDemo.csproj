@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SampleDemo.Array_2DEx</StartupObject>
+    <StartupObject>SampleDemo.Student</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,15 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayList_Ex.cs" />
     <Compile Include="Array_2DEx.cs" />
     <Compile Include="Array_Ex.cs" />
     <Compile Include="Calculation.cs" />
+    <Compile Include="Category_ArrayList.cs" />
+    <Compile Include="Collection_ExWithUserInput.cs" />
+    <Compile Include="Collection_StackAndQueue_Ex.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="Department.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="Employee_Array_Ex.cs" />
+    <Compile Include="Food.cs" />
+    <Compile Include="FoodList_Main.cs" />
+    <Compile Include="Hashtable_Ex.cs" />
+    <Compile Include="MyGenericClass.cs" />
+    <Compile Include="MygenricProgramMain.cs" />
+    <Compile Include="Stack_Queue_generic_Ex.cs" />
+    <Compile Include="Main_Product.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="Product.cs" />
+    <Compile Include="ProductClass.cs" />
     <Compile Include="ProductMainMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="SwapInMyGenric.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
